@@ -1,0 +1,163 @@
+    *,
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .form {
+        display: flex;
+        justify-content: center;
+        width: 700px;
+        margin: 0 auto;
+        margin-top: 150px;
+        background-color: #dddddd;
+        padding: 20px;
+        flex-direction: column;
+        border: 2px solid #888383f5;
+        border-radius: 15px;
+        box-shadow: 0 0 10px #b5b2b2;
+        margin-bottom: 50px;
+    }
+
+    .card {
+        /* display: flex;
+        flex-direction: column; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* gap: 20px; */
+        row-gap: 20px;
+        column-gap: 20px;
+        width: 100%;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        font-size: 8px;
+
+    }
+
+    .card .box label {
+        font-size: 2em;
+        /* font-size: 18px; */
+        font-weight: 500;
+        margin-bottom: 4px;
+    }
+
+    .card .box input {
+        padding: 0.75em;
+        /* padding: 10px; */
+        outline: none;
+        border-radius: 6px;
+        border: none;
+        border: 1px solid #333;
+    }
+
+    .card .box input::placeholder {
+        color: #cccccc;
+    }
+
+    .genter {
+        display: flex;
+    }
+
+    .phone_num {
+        display: flex;
+        gap: 10px;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+    .card .box .phone_num .code {
+        border-radius: 5px;
+    }
+
+    .card .box input~radio {
+        width: 20px;
+        height: 20px;
+    }
+
+    .num {
+        width: 100%;
+    }
+
+    .card .box select {
+        padding: 0.75em;
+        /* padding: 10px; */
+        border-radius: 6px;
+        outline: none;
+        border: none;
+        border: 1px solid #333;
+    }
+
+    .card .box select option {
+        border: none;
+        border: 1px solid #333;
+        outline: none;
+        font-size: 16px;
+    }
+
+    .cs {
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+
+    .genter span {
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 3px;
+    }
+
+    .user {
+        width: 20px;
+        height: 20px;
+    }
+
+    .submit {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+    }
+
+    .submit input {
+        background-color: none;
+        outline: 0;
+        background: none;
+        outline: none;
+        border: none;
+        padding: 10px 30px;
+        background-color: #333;
+        border-radius: 10px;
+        font-size: 18px;
+        color: #FFF;
+    }
+
+    .submit input:active {
+        color: #b5b2b2;
+    }
+
+    .Reig {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 30px;
+        font-weight: 700;
+        color: #333;
+    }
+
+    .It {
+        display: flex;
+        align-items: center;
+    }
